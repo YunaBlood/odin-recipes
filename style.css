@@ -1,0 +1,22 @@
+body{
+    background-color: cadetblue;
+    margin: 0;
+}
+
+#title-homepage{
+    color: cornsilk;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: cadetblue;
+    margin: 0;
+}
+
+#nav-links{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    background-color: cadetblue;
+    margin-top: 0;
+}
