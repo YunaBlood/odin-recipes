@@ -1,38 +1,76 @@
-body{
-    background-color: cadetblue;
+html{
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Homepage start */
+
 
 #title{
-    color: cornsilk;
+    color: green;
     font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 0,0,0,0;
+    padding: 10px;
+    margin: 10px 5px;
 }
+
+.container{
+    border: 5px black solid;
+    padding: 15px;
+    height: auto;
+    width: 700px;
+    margin: 5px auto;
+    background-color: wheat;
+}
+
 
 #nav-links{
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    list-style: none;
     font-size: 30px;
+    list-style: none;
+    margin: 10px 35px 5px 5px
 }
 
-.img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 750px;
-    height: auto;
+
+.recipe-list{
+    padding: 15px;
+    /* margin: 0px 10px 25px 10px; */
+    border: 5px solid black;
+}
+
+img{
+    width: 400px;
+    height: 350px;
     border-radius: 80px;
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ /* Homepage end */
+
+.img{
+    width: 400px;
+    height: 350px;
+    border-radius: 80px;
+    margin: 0 auto;
 }
 
 .secondary-title{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 30px;
-    color: cornsilk;
+    color: green;
 }
 
 .list-title{
