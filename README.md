@@ -11,7 +11,7 @@ I added on my img tag the alt attribute to describe the image and used the heigh
 I added CSS onto my page and used proporties to change the style of my HTML
 
 I also used class and Id to select the appropriate selector for styling my webpage
------------------------------------------------------------------------------------------
+
 After learning about box-sizing and the margin,padding,border property i updated my page with new style by using the property box-sizing:border-box i also changed the margin and padding of almost all my elements.
 
 I also updated my HTML by using div to add a container to all my html pages 
