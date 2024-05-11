@@ -1,7 +1,5 @@
 html{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 *,
@@ -40,7 +38,8 @@ body{
     text-align: center;
     font-size: 30px;
     list-style: none;
-    margin: 10px 35px 5px 5px
+    padding: 20px;
+    margin: 10px auto;
 }
 
 
@@ -48,6 +47,7 @@ body{
     padding: 15px;
     /* margin: 0px 10px 25px 10px; */
     border: 5px solid black;
+    padding: 20px;
 }
 
 img{
